@@ -1,7 +1,9 @@
 defmodule ChannelSampleWeb.RoomChannel do
+  require Logger
   use ChannelSampleWeb, :channel
 
-  def join("room:lobby", _message, socket) do
+  def join("room:lobby", message, socket) do
+    Logger.debug(message)
     {:ok, socket}
   end
 
@@ -10,6 +12,7 @@ defmodule ChannelSampleWeb.RoomChannel do
   end
 
   def handle_in("new_msg", %{"body" => body}, socket) do
+    Logger.debug(body)
     broadcast(socket, "new_msg", %{body: body})
 
     {:noreply, socket}

@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/CSharpClient.csproj": {}
+  },
+  "projects": {
+    "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/CSharpClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/CSharpClient.csproj",
+        "projectName": "CSharpClient",
+        "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/CSharpClient.csproj",
+        "packagesPath": "/home/takumisuzuki/.nuget/packages/",
+        "outputPath": "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/takumisuzuki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj": {
+                "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj"
+              },
+              "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/PhoenixTests.csproj": {
+                "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/PhoenixTests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "WebSocketSharp": {
+              "target": "Package",
+              "version": "[1.0.3-rc11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj",
+        "projectName": "Phoenix",
+        "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj",
+        "packagesPath": "/home/takumisuzuki/.nuget/packages/",
+        "outputPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/takumisuzuki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/PhoenixTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/PhoenixTests.csproj",
+        "projectName": "PhoenixTests",
+        "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/PhoenixTests.csproj",
+        "packagesPath": "/home/takumisuzuki/.nuget/packages/",
+        "outputPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/PhoenixTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/takumisuzuki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj": {
+                "projectPath": "/home/takumisuzuki/study/elixir_study/websocket/PhoenixSharp/Phoenix/Phoenix.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "WebSocketSharp": {
+              "target": "Package",
+              "version": "[1.0.3-rc11, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

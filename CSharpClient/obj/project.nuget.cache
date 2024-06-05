@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "2avVzG/H7Tg=",
+  "success": true,
+  "projectFilePath": "/home/takumisuzuki/study/elixir_study/websocket/CSharpClient/CSharpClient.csproj",
+  "expectedPackageFiles": [
+    "/home/takumisuzuki/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/home/takumisuzuki/.nuget/packages/websocketsharp/1.0.3-rc11/websocketsharp.1.0.3-rc11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "パッケージ 'WebSocketSharp 1.0.3-rc11' はプロジェクトのターゲット フレームワーク 'net8.0' ではなく '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' を使用して復元されました。このパッケージは、使用しているプロジェクトとの完全な互換性がない可能性があります。",
+      "libraryId": "WebSocketSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
